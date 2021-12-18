@@ -377,3 +377,147 @@ body {
 .home-and-budget-desc-p span{
     display: block;
 }
+
+/*송금 섹션 transfer */
+
+.transfer-cont {
+    background-color: #f9fafb;
+    position: relative;
+}
+
+.transfer {
+    max-width: 1140px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.transfer p {
+    white-space: pre-line;
+    word-break: keep-all;
+    
+}
+
+.transfer-header {
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+.transfer-header>p {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #191f28;
+}
+
+
+/*제목h2*/
+.transfer-header>h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #3182f6;
+    margin-bottom: 30px;
+}
+
+.transfer-flex-width {
+    
+}
+
+.transfer-flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 30px);
+}
+
+.transfer-desc-top{
+    flex-basis: calc(100% - 30px);
+    display: flex;
+    margin: 0 30px 30px 0;
+    padding: 40px;
+    align-items: center;
+    height: 500px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.transfer-desc-top video {
+    width: 618px;
+    
+}
+
+.transfer-desc-top>p {
+    position: absolute;
+    left: 55%;
+    word-break: keep-all;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(51, 61, 75);
+}
+
+.blue {
+    color: #3182f6;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.icons {
+    display: inline-block;
+    width: 20px;
+}
+
+.icons>svg {
+    width: 100%;
+}
+
+.transfer-desc-bottom-left {
+    max-width: calc(33.333% - 30px);
+    flex-basis: calc(33.333% - 30px);
+    height: 500px;
+    /* padding: 40px; */
+    margin: 0 30px 30px 0;
+    overflow: hidden;
+    isolation: isolate;
+    border-radius: 26px;
+    background-color: #191f28
+}
+.transfer-desc-bottom-left p {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: rgb(176, 184, 193);
+    margin-bottom: 64px;
+    overflow-wrap: break-word;
+}
+
+
+.transfer-desc-bottom-right {
+    flex-basis: calc(66.667% - 30px);
+    position: relative;
+    display: flex;
+    height: 500px;
+    /* padding: 40px; */
+    margin: 0 30px 30px 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    isolation: isolate;
+    border-radius: 26px;
+}
+
+.transfer-desc-bottom-right p {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(51, 61, 75);
+}
+
+.transfer-desc-bottom-right img {
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    width: 540px;
+    height: auto;
+}
